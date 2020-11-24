@@ -25,6 +25,9 @@ body {
 
 section {
   width: 100%;
+  display: flex;
+  padding: 40px 40px 40px 40px;
+  justify-content: center;
 }
 
 .nav ul {
@@ -70,10 +73,15 @@ section {
   text-align: center;
 }
 
-.container {
-  display: flex;
-}
-
 .text-bold {
   font-weight: bold;
+}
+
+@media all and (max-width: 1024px) {
+  section {
+    flex-direction: column;
+  }
+  body {
+    background-color: black;
+  }
 }
