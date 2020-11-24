@@ -24,10 +24,8 @@ body {
 }
 
 section {
-  width: 100%;
   display: flex;
   padding: 40px 40px 40px 40px;
-  justify-content: center;
 }
 
 .nav ul {
