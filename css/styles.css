@@ -76,7 +76,6 @@ section {
 
 .container {
   box-sizing: border-box;
-  background-color: lawngreen;
   width: 60%;
   margin: 40px auto;
 }
