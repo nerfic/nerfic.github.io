@@ -25,7 +25,6 @@ body {
 
 section {
   display: flex;
-  padding: 40px 40px 40px 40px;
 }
 
 .nav ul {
@@ -75,11 +74,33 @@ section {
   font-weight: bold;
 }
 
-@media all and (max-width: 1024px) {
-  section {
-    flex-direction: column;
-  }
-  body {
-    background-color: black;
+.container {
+  box-sizing: border-box;
+  background-color: lawngreen;
+  width: 60%;
+  margin: 40px auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#profil div{
+  justify-content: space-around;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.float-right {
+  float: right;
+}
+
+@media (max-width: 800px) {
+  .container {
+    flex-wrap: wrap;
   }
 }

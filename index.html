@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <title>MyCV</title>
+  <title>Allan JAUDALLY - Mon CV</title>
   <meta name="MyCV" content="MyCV">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
@@ -13,21 +13,29 @@
   <header class="main-header">
     <nav class="nav" role="navigation">
       <ul>
-        <span class="brand">Allan JAUDALLY</span>
-        <li><a href="#">Profil</a></li>
+        <a href="#"><span class="brand">Allan JAUDALLY</span></a>
+        <li><a href="#profil">Profil</a></li>
         <li><a href="#">Expérience</a></li>
         <li><a href="#">Formation</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="white-bg">
-    <div class="container">
-      <h1 class="text-center">Allan JAUDALLY</h1>
-      <h3 class="text-center blue">Développeur FullStack</h3>
-      <img class="img-rounded" src="./img/noemie_martin.png" alt="Allan JAUDALLY">
+  <!-- PROFIL -->
+
+  <section id="profil" class="white-bg">
+    <div class="container flex">
+      <div>
+        <h1 class="text-center">Allan JAUDALLY</h1>
+        <h3 class="text-center blue">Développeur FullStack</h3>
+      </div>
+      <div>
+        <img class="img-rounded" src="./img/noemie_martin.png" alt="Allan JAUDALLY">
+      </div>
     </div>
   </section>
+
+  <!-- PROFIL -->
 
   <section class="blue-bg">
     <div class="container">
@@ -42,28 +50,49 @@
 
   <section class="white-bg">
     <div class="container">
-      <h2 class="blue">Expérience professionnel</h2>
-      <p class="text-bold">Stagiaire en développment chez TechLabs<span> 2018</span></p>
-      <p>Création du site web</p>
-      <p>Création des test unitaires</p>
-      <p class="text-bold">Bénévole Konexio<span> 2016-2018</span></p>
-      <p>Organisation des évenements</p>
-      <p>Validation des comptes de l'association</p>
+    <div class="profil">
+
+        <h2 class="blue">Expérience professionnel</h2>
+        <div class="flex">
+          <div>
+            <p class="text-bold">Stagiaire en développment chez TechLabs</p>
+            <p> 2018</p>
+          </div>
+          <p>Création du site web</p><br />
+          <p>Création des test unitaires</p>
+        </div>
+        <div class="flex">
+          <div>
+            <p class="text-bold">Bénévole Konexio</p>
+            <p> 2016-2018</p>
+          </div>
+          <p>Organisation des évenements</p>
+          <p>Validation des comptes de l'association</p>
+        </div>
+      </div>
     </div>
   </section>
 
   <section class="blue-bg">
     <div class="container">
-      <h2>Formation</h2>
-      <p>Ecole 42<span> 2018</span></p>
-      <p>Bac Pro SEN<span> 2018</span></p>
+      <div>
+        <h2>Formation</h2>
+      </div>
+      <div>
+        <span class="text-bold">Ecole 42</span><span class="float-right"> 2018</span>
+      </div>
+      <div>
+        <span class="text-bold">Bac Pro SEN</span> <span class="float-right"> 2016-2018</span>
+      </div>
     </div>
   </section>
 
   <section class="white-bg">
     <div class="container">
       <h2 class="blue">Passions</h2>
-      <p>Automobile - Technologie - Voyages</p>
+      <div>
+        <p>Automobile - Technologie - Voyages</p>
+      </div>
     </div>
   </section>
 
@@ -72,4 +101,5 @@
   </footer>
 
 </body>
+
 </html>
