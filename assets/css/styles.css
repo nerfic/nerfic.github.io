@@ -89,3 +89,17 @@ a img:hover {
 .bg-myprimary {
    background-color: #568EA6;
 }
+
+/* Button */
+
+.btn-myprimary {
+    color: #fff;
+    background-color: #568EA6;
+    border-color: #568EA6;
+}
+  
+.btn-myprimary:hover {
+    color: #fff;
+    background-color: #305F72;
+    border-color: #568EA6;
+}
