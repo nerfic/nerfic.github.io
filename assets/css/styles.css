@@ -1,9 +1,10 @@
 body {
-    background: #dff5ff;
+    background: #f1f1f1;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
-    color: #568EA6;
+    color: rgba(33,147,176,1);
     font-weight: bold;
     transition: all 0.3s ease-in-out;
 }
@@ -13,6 +14,11 @@ a:hover {
     text-decoration: underline;
     transition: all 0.3s ease-in-out;
 }
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
 
 .effet-zoom {
     transition: all .5s ease-in-out;
@@ -56,18 +62,57 @@ a:hover {
     color: #0072b1;
 }
 
-/* Tab */
+/* Header */
 
-.tab-content-custom > .active {
-    display: block;
-    background: white;
-    padding: 20px;
+.header-bg {
+    background: rgb(33,147,176);
+    background: linear-gradient(310deg, rgba(33,147,176,1) 0%, rgba(109,213,237,1) 100%);
+    border-bottom: 10px rgba(0, 0, 0, 0.3) solid;
+    box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.5);
 }
+
+.header-bg img {
+    transition: all .5s ease-in-out;
+}
+
+.header-bg img:hover {
+    opacity: 0.8;
+}
+
+.img-shadow {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Colors */
+
+.text-myprimary {
+    color: rgba(33,147,176,1);
+}
+
+.bg-myprimary {
+   background-color: rgba(33,147,176,1);
+}
+
+/* Buttons */
+
+.btn-myprimary {
+    color: #fff;
+    background-color: rgba(33,147,176,1);
+    border-color: rgba(33,147,176,1);
+}
+  
+.btn-myprimary:hover {
+    color: #fff;
+    background-color: #305F72;
+    border-color: rgba(33,147,176,1);
+}
+
+/* Project */
 
 .project-line {
     height: 3px;
     width: 50px;
-    background-color: #568EA6;
+    background-color: rgba(33,147,176,1);
     margin: 0 auto;
 }
 
@@ -80,26 +125,13 @@ a img:hover {
     transition: all .5s ease-out;
 }
 
-/* Colors */
-
-.text-myprimary {
-    color: #568EA6;
+#sticky-position {
+    top: 54px;
 }
 
-.bg-myprimary {
-   background-color: #568EA6;
-}
-
-/* Buttons */
-
-.btn-myprimary {
-    color: #fff;
-    background-color: #568EA6;
-    border-color: #568EA6;
-}
-  
-.btn-myprimary:hover {
-    color: #fff;
-    background-color: #305F72;
-    border-color: #568EA6;
+.card {
+    box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.5);
+    border: 0px;
+    border-radius: 0;
+    border-top: 5px #216f83 solid;
 }
